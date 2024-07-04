@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- This XML Document holds the license informations -->
+<DriversLicense status="suspended">
+	<Number>12345</Number>
+	<FirstName>Sourav</FirstName>
+	<LastName>A K</LastName>
+	<DateOfBirth>21/April/2000</DateOfBirth>
+	<VehicleType>Car</VehicleType>
+	<DateOfIssue>11/June/2020</DateOfIssue>
+	
+	<![CDATA[
+		igone entire cdata block. used to store the examples. to include any text in xml document intead of charactor entity
+	]]>
+	<ExpiryDate>11/June/2035</ExpiryDate>
+	<Photo location="servername/filename" />
+
+	<Address>
+		<street>Mavinkara</street>
+		<city>Kozhikode</city>
+		<state>Kerala</state>
+		<country>India</country>
+		<zipcode>682037</zipcode>
+	</Address>
+</DriversLicense>
+
+
+<UserProfile>
+	<FirstName>Sourav</FirstName>
+	<LastName>A K</LastName>
+	<Password>123455678</Password>
+	<EmailID>souravak@gmail.com</EmailID>
+	<Photo location="servername/filename"></Photo>
+</UserProfile>

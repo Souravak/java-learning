@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Patient xmlns:tns="http://www.souravak.in/Patient"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.souravak.in/Patient Patient.xsd" id="123">
+	<tns:name>Sourav</tns:name>
+	<tns:age>18</tns:age>
+	<tns:gender>M</tns:gender>
+	<tns:phone>9876543210</tns:phone>
+	<tns:paymentType>
+		<tns:insurance>
+			<tns:limit>10000</tns:limit>
+			<tns:Provider>Blue Cross Blue Shield</tns:Provider>
+		</tns:insurance>
+	</tns:paymentType>
+</tns:Patient>

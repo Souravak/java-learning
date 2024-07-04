@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.souravak.in/Patient"
+	xmlns:tns="http://www.souravak.in/Patient"
+	elementFormDefault="qualified">
+	
+	<complexType name="PaymentType">
+		<choice>
+			<element name="cash" type="decimal" />
+			<element name="insurance" type="tns:Insurance" />
+		</choice>
+	</complexType>
+
+	<complexType name="Insurance">
+		<all>
+			<element name="Provider" type="string" />
+			<element name="limit" type="decimal" />
+		</all>
+	</complexType>
+</schema>

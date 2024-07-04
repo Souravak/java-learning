@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.souravak.in/Common"
+	xmlns:tns="http://www.souravak.in/Common"
+	elementFormDefault="qualified">
+	
+	<simpleType name="id">
+		<restriction base="int">
+			<pattern value="[0-9]*"></pattern>
+		</restriction>
+	</simpleType>
+</schema>
